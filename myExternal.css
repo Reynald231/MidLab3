@@ -1,0 +1,51 @@
+#container{
+    width: 1500px;
+    height: 1000px;
+    margin: auto;
+    border: solid black;
+}
+
+#header{
+    width: 1500px;
+    height: px;
+    border: solid red;
+}
+
+#body-content{
+    width: 1500px;
+    margin-top: 10px;
+}
+
+#body-content #left-content{
+    background-color: yellow;
+    width: 250px;
+    height: 725px;
+    float: left;
+}
+#body-content #left-content ul{
+    list-style: none;
+    padding-top: 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+#body-content #left-content ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+#body-content #left-content ul li a:visited{
+    color:black;
+}
+
+#body-content #left-content ul li a:hover{
+    text-decoration: underline;
+    background-color: black;
+    color:white;
+}
+
+#body-content #center-content{
+    width: 1250px;
+    height: 725px;
+    float: right;
+    background-color: aqua;
+}
